@@ -11,7 +11,7 @@ Arquitectura de ejemplo con microservicios, compuesta por lo siguiente:
 
 1. Ejecutar **eureka-server**, por configuración estará habilitado sobre el puerto ```8761```
 2. Iniciar los clientes 1 y 2, los puertos pueden variar ya que se configuraron en modo aleatorio
-4. Acceder a la dirección ```http://localhost:8761``` para verificar que los clientes se encuentren registrados en el servidor Eureka
+4. Verificar en la dirección ```http://localhost:8761``` que los clientes se encuentren registrados en el servidor Eureka
 5. Ejecutar **zuul-server** que quedará expuesto sobre el puerto ```8080```
 6. Acceder nuevamente a ```http://localhost:8761``` para verificar que el proxy se encuentre registrado
 7. Realizar las siguientes peticiones para comprobar el redireccionamiento de Zuul:
