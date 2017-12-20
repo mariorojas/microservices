@@ -12,8 +12,12 @@ spring:
 zuul:
   routes:
     client1:
-      path: /client1
+      path: /client1/**
       service-id: eureka-client-1
+      strip-prefix: false
+      sensitive-headers: 
     client2:
-      path: /client2
+      path: /client2/**
       service-id: eureka-client-2
+      strip-prefix: false
+      sensitive-headers: 

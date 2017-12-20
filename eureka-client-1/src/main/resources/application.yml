@@ -9,3 +9,6 @@ server:
 spring:
   application:
     name: eureka-client-1
+my-clients:
+  feign:
+    client2: eureka-client-2
